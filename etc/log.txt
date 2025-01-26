@@ -1,0 +1,20 @@
+2025-01-26 21:56:02,597 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.handler.NeutrinoRequestHandler - Message read: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+2025-01-26 21:56:02,612 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoRequest - Establishing downstream to cname1_id
+2025-01-26 21:56:02,619 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoNode - Initializing fresh endpoint
+2025-01-26 21:56:02,625 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.handler.NeutrinoRequestHandler - Message read: DefaultLastHttpContent(data: SlicedByteBuf(ridx: 0, widx: 72, cap: 72/72, unwrapped: PooledUnsafeDirectByteBuf(ridx: 208, widx: 208, cap: 1024)), decoderResult: success)
+2025-01-26 21:56:02,626 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.handler.NeutrinoRequestHandler - Message read: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+2025-01-26 21:56:02,626 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoRequest - Establishing downstream to cname1_id
+2025-01-26 21:56:02,626 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoNode - Initializing fresh endpoint
+2025-01-26 21:56:02,627 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.handler.NeutrinoRequestHandler - Message read: DefaultLastHttpContent(data: SlicedByteBuf(ridx: 0, widx: 72, cap: 72/72, unwrapped: PooledUnsafeDirectByteBuf(ridx: 208, widx: 208, cap: 1024)), decoderResult: success)
+2025-01-26 21:56:02,655 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.handler.NeutrinoRequestHandler - Writing response: DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+2025-01-26 21:56:02,658 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoPool - Response completed for com.ebay.neutrino.NeutrinoRequest@1727e569 - releasing downstream.
+2025-01-26 21:56:02,660 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoNode - Releasing endpoint [id: 0xcf663fcb, /127.0.0.1:49410 => localhost/127.0.0.1:9998]
+2025-01-26 21:56:02,660 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.handler.NeutrinoRequestHandler - Setting close-listener on last content
+2025-01-26 21:56:02,663 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoRequest - Request completed: com.ebay.neutrino.NeutrinoRequest@1727e569
+2025-01-26 21:56:02,670 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.handler.NeutrinoRequestHandler - Writing response: DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+2025-01-26 21:56:02,672 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoPool - Response completed for com.ebay.neutrino.NeutrinoRequest@5239a0e6 - releasing downstream.
+2025-01-26 21:56:02,674 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoNode - Releasing endpoint [id: 0x090b81ed, /127.0.0.1:56276 => localhost/127.0.0.1:9999]
+2025-01-26 21:56:02,674 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.handler.NeutrinoRequestHandler - Setting close-listener on last content
+2025-01-26 21:56:02,674 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoRequest - Request completed: com.ebay.neutrino.NeutrinoRequest@5239a0e6
+2025-01-26 21:56:02,676 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoServiceInitializer - Releasing session com.ebay.neutrino.NeutrinoServiceInitializer@14786e09
+2025-01-26 21:56:02,680 [nioEventLoopGroup-3-3] INFO com.ebay.neutrino.NeutrinoServiceInitializer - Releasing session com.ebay.neutrino.NeutrinoServiceInitializer@14786e09
